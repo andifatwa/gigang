@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Andi Fatwa</title>
-</head>
-<body>
-    <?php
-        $favcolor = "red";
-        // switch mirip if else cuma lebih byk block code
-        switch ($favcolor) {
-          case "red":
-            echo "Your favorite color is red!";
-            break;//break untuk stop execute code
-          case "blue":
-            echo "Your favorite color is blue!";
-            break;
-          case "green":
-            echo "Your favorite color is green!";
-            break;
-          default:
-            echo "Your favorite color is neither red, blue, nor green!";
-        }
-    ?> 
-</body>
-</html>
+<?php
+
+	include_once("daftar isi.html");
+
+?>
